@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle andrew-aday-word-count",
+        "command": "andrew-aday-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "andrew-aday-word-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "andrew-aday-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
